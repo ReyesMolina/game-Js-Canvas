@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="game"><img src="./img/gifB5.jpg" id="giftLose"></canvas>
+    
+        <div class="buttons">
+            <button id="up">arriba</button>
+            <button id="left">izquierda</button>
+            <button id="right">derecha</button>
+            <button id="down">abajo</button>
+        </div>
+        
+        <div class="info">
+            <p>Lives: <span id="lives"></span></p>
+            <p>Time: <span id="time"></span></p>
+            <p>Record: <span id="record"></span></p>
+            <p id="result"></p>
+            <button id="resetRecord">Eliminar Record</button>
+            <button id="reloadGame">reiniciar juego</button>
+        </div>
+    </div>
+
+   
+
+    <script src="./map.js"></script>
+    <script src="./game.js"></script>
+    
+</body>
+</html>
